@@ -1,0 +1,27 @@
+# Downloaded source trees and build artifacts
+sources/
+build/
+*.tar.gz
+*.tar.xz
+*.tar.bz2
+*.zip
+
+# Kernel build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.cmd
+*.symvers
+*.order
+
+# Editor / OS junk
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
